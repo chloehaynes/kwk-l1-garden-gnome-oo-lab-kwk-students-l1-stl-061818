@@ -10,7 +10,7 @@ class GardenGnome
   end
   
   def setpersonality=(personality)
-    @hat_color = "red"
+    @personality = personality
   end
   
   def sethat_color=(hat_color)
