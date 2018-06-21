@@ -9,6 +9,12 @@ class GardenGnome
     @hat_color = "red"
   end
   
-  
+  def sethat_color=(age)
+        @age = age
+    end
+    
+    def gethat_color
+        @age
+    end
   
 end
