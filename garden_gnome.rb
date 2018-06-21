@@ -31,8 +31,8 @@ class GardenGnome
   
 end
 
-gnome1 = GardenGnome.new
-gnome2 = GardenGnome.new("Walter the Worst")
+gnome1 = GardenGnome.new("gnome", 14)
+gnome2 = GardenGnome.new("Walter the Worst", 78)
 gnome3 = GardenGnome.new("James the Jerk", 3421)
 gnome4 = GardenGnome.new("Alfred the Abhorrent", 579, "true")
 
