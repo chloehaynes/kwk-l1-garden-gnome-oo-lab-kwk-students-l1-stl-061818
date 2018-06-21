@@ -10,11 +10,22 @@ class GardenGnome
   end
   
   def sethat_color=(hat_color)
-        @hat_color = hat_color
-    end
+    @hat_color = hat_color
+  end
     
-    def gethat_color
-        @hat_color
-    end
+  def gethat_color
+    @hat_color
+  end
+  
+  def gnaw
+    puts "Gnawing on a tree!!!"
+  end
+  
+  def shout
+    puts "GNARLY!!!"
+  end
+  
+  def introduce_self
+    puts "Hello humans, my name is #{name}, I am #{age}, and you'll rue the day you crossed me!"
   
 end
