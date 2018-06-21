@@ -43,7 +43,7 @@ gnome4 = GardenGnome.new("Alfred the Abhorrent", 579)
 
 puts gnome2.age
 
-GarndenGnome.gnaw
+GardenGnome.gnaw
 
 
 
