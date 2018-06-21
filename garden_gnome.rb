@@ -10,7 +10,7 @@ class GardenGnome
   end
   
   def sethat_color=(hat_color)
-    @hat_color = hat_color
+    @hat_color = "red"
   end
     
   def gethat_color
